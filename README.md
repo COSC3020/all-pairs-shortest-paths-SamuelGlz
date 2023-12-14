@@ -26,3 +26,7 @@ test code from other exercises.
 
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst-case time complexity for the function is the same as the best case since
+the fucntion is set up to iterate through 3 for loops that go through each vertex. 
+So the time complexity is $\Theta(|V|^3)$
